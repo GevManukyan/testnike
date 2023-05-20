@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Now Text Medium",Helvetica,Arial,sans-serif;
+}
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.jordan{
+    width: 25px;
+}
+.convers{
+    width: 40px;
+}
+.firstDiv a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+    padding-right: 10px ;
+}
+.firstDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    
+}
+.firstChild2{
+    display: flex;
+    gap: 10px;
+}
+.firstChild1{
+    display: flex;
+    gap: 10px;
+}
+
+.firstChild2 a:first-child , .firstChild2 a:nth-child(2) ,.firstChild2 a:nth-child(3){
+    border-right: 2px solid black;
+}
+
+/* header */
+
+.logo{
+    width: 60px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+header nav{
+    padding-left: 150px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.iconDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.iconDiv div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.iconDiv div i{
+    cursor: pointer;
+}
+.inp1{
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(206, 202, 202);
+}
+.miniIconDiv{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.miniIconDiv:hover{
+    background-color:rgb(206, 202, 202) ;
+}
